@@ -1,0 +1,146 @@
+/* Remove text shadow for elements with the 'ui-page-theme-a' class */
+.ui-page-theme-a {
+    text-shadow: none;
+}
+
+/* Styling for the '#name-match' element */
+#name-match {
+    background-color: cornflowerblue !important;
+    border-color:cornflowerblue !important;
+}
+
+/* Styling for links within elements with the 'ui-page-theme-a' class */
+.ui-page-theme-a a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Styling for visited links within elements with the 'ui-page-theme-a' class */
+.ui-page-theme-a a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Styling for elements with the 'named' class */
+.named {
+    font-size: 1em !important;
+}
+
+/* Styling for the '#buttons' container */
+#buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Hover effect for the '#bet-btn' element */
+#bet-btn:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .25s ease;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+}
+
+/* Styling for elements with the 'ui-btn-new' class */
+.ui-btn-new {
+    background-color: #E62020 !important;
+    text-shadow: none !important;
+    color: white !important;
+}
+
+/* Hover effect for elements with the 'ui-btn-new' class */
+.ui-btn-new:hover {
+    color: black !important;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: .25s ease;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+}
+
+/* Styling for the 'new-btn-container' */
+.new-btn-container {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Styling for the 'close-btn-container' */
+.close-btn-container {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Styling for the '#close' element */
+#close {
+    margin-right: 0 !important;
+}
+
+/* Hover effect for the '#close' element */
+#close:hover {
+    color: #E62020 !important;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition: .25s ease;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+}
+
+/* Styling for the '.next-match' container */
+.next-match {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Styling for the '.next-btn' element */
+.next-btn {
+    width: 80% !important;
+    margin-top: 0.5em !important;
+    padding: 0.7em 1em !important;
+    font-weight: 700 !important;
+    color: rgb(0, 0, 0) !important;
+    background:  #68d388 !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px ;
+    -moz-border-radius: 5px ;
+    -ms-border-radius: 5px ;
+    -o-border-radius: 5px ;
+    border: 1px solid #68d388 !important;
+    box-shadow: 1px 1px 1px #5cba78 !important;
+    text-shadow: none !important;
+}
+
+/* Hover effect for the '.next-btn' element */
+.next-btn:hover {
+    cursor: pointer;
+    color: aliceblue !important;
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transition: .25s ease;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+}

@@ -1,0 +1,185 @@
+/* Resetting some default styles and setting the scroll behavior to smooth */
+html {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    scroll-behavior: smooth;
+    background-color: #f4f4f4;
+}
+
+/* Styling for the main list of matches */
+#date-match {
+    padding: 0 0 0 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* Styling for individual date entries */
+.date {
+    margin: 0.5em -1em 0.5em -1em;
+    background-color: #cacacac8;
+    padding: 0.5em 0 0.5em 0;
+}
+
+/* Styling for nested lists inside date entries */
+.events {
+    padding: 0 0 0 0;
+    list-style: none;
+}
+
+/* Styling for the name of the match */
+#name-match {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for individual match entries */
+.match {
+    margin: 0.5em 1em 0.5em 1em;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #848383ab;
+}
+
+/* Hover effect for match entries */
+.match:hover {
+    transform: scale(1.025);
+    -webkit-transform: scale(1.025);
+    -moz-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    -o-transform: scale(1.025);
+    transition: .25s ease;
+    -webkit-transition: .25s ease;
+    -moz-transition: .25s ease;
+    -ms-transition: .25s ease;
+    -o-transition: .25s ease;
+}
+
+/* Styling for the dialog */
+.dialog {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.5em;
+}
+
+/* Styling for finished games */
+.game-finished {
+    background-color: #ffa200;
+}
+
+/* Styling for more than one finished games in group of matches */
+.done {
+    background-color: #E62020;
+}
+
+/* Styling for a table column */
+.table-column {
+    width: 100%;
+    margin-top: 2em;
+    font-size: 1em;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the start time column in a table */
+.table-start {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the actual time column in a table */
+.table-actual {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the container of all-time date elements */
+.all-time-date-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the date-time wrapper */
+.date-time-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the clock element */
+#clock {
+    margin: 0.2em;
+    font-size: 1.2em;
+}
+
+/* Styling for the date element */
+#date {
+    margin: 0.2em;
+    font-size: 1.2em;
+}
+
+/* Styling for the start time and date wrapper */
+.start-time-date-wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the start time element */
+.start-time {
+    margin: 0.2em;
+    font-size: 1.2em;
+}
+
+/* Styling for the start date element */
+.start-date {
+    margin: 0.2em;
+    font-size: 1.2em;
+}
+
+/* Styling for disabled elements */
+.disabled {
+    color: white;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the details container */
+#details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the possible winner element */
+.possible-win {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styling for the current status element */
+.now-status {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
